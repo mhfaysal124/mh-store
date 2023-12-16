@@ -1,0 +1,306 @@
+
+/** Extra small devices (portrait phones, less than 576px) 
+ ** ======================================================= */
+@media (max-width: 575.98px) { 
+    .py_75{
+        padding: 40px 0;
+      }
+
+    .c_btn {
+        padding: 9px 21px;
+    }
+
+
+    .logo {
+        width: 33px;
+        margin-right: 3px;
+    }
+    .logo_text {
+        font-size: 24px;
+    }
+    .icon_link {
+        position: relative;
+        font-size: 16px;
+        padding: 8px;
+    }
+    .navbar-toggler{
+        font-size: 16px;
+    }
+
+
+    .c_collapse ul li a{
+        margin-left: 50px;
+        line-height: 1.7;
+        font-size: 16px;
+        border-bottom: 1px solid transparent;
+    }
+    .c_collapse ul li a:hover{
+        border-bottom: 1px solid #FF5353;
+    }
+
+
+
+
+
+
+
+    /** Banner*/
+    .banner_text {
+        padding: 40px 0;
+    }
+
+    .banner_text h4 {
+        font-size: 18px;
+    }
+
+    .banner_text h1 {
+        font-size: 34px;
+    }
+
+    .banner_text button {
+        margin-top: 2rem;
+    }
+
+    /** FEATURED PRODUCT */
+    .common_tittle {
+        padding-bottom: 25px;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    /** 50% off section Start */
+    
+
+
+
+
+    .py_110 {
+        padding: 40px 0;
+    }
+    .off_text h1 {
+        font-size: 40px;
+    }
+
+    .off_text h2 {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    .post_title {
+        font-size: 20px;
+    }
+
+    .footer_bottom p {
+        font-size: 15px;
+    }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Small devices (landscape phones, 576px and up)
+ ** ======================================================= */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    
+
+    .c_collapse ul li a{
+        margin-left: 50px;
+        line-height: 1.7;
+        font-size: 16px;
+        border-bottom: 1px solid transparent;
+    }
+    .c_collapse ul li a:hover{
+        border-bottom: 1px solid #FF5353;
+    }
+
+
+
+    .py_75{
+        padding: 53px 0;
+      }
+    
+    .c_btn {
+        padding: 9px 21px;
+    }
+
+    /** Banner*/
+    .banner_text {
+        padding: 53px 0;
+    }
+
+    /** 50% off section Start */
+    .py_110 {
+        padding: 53px 0;
+    }
+    .off_text h1 {
+        font-size: 40px;
+    }
+
+    .off_text h2 {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Medium devices (tablets, 768px and up)
+ ** ======================================================= */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .c_btn {
+        padding: 9px 21px;
+    }
+
+    .c_collapse ul li a{
+        line-height: 2;
+        font-size: 18px;
+        margin-left: 50px;
+        border-bottom: 1px solid transparent;
+    }
+    .c_collapse ul li a:hover{
+        border-bottom: 1px solid #FF5353;
+    }
+    
+
+
+    /** Bannar*/
+    .banner_text{
+        padding: 53px 0;
+        text-align: center;
+      }
+      .banner_text h4{
+        font-size: 16px;
+        color: #000000b3;
+      }
+      
+      .banner_text h1{
+        font-size: 40px;
+        color: black;
+      }
+      .banner_text button{
+        margin-top: 1rem
+      }
+
+    /** 50% off section Start */
+    .py_110 {
+        padding: 61px 0;
+    }
+    .off_text h1 {
+        font-size: 40px;
+    }
+
+    .off_text h2 {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Large devices (desktops, 992px and up)
+** ======================================================= */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Extra Large devices (desktops, 992px and up)
+** ======================================================= */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Extra Extra large devices (large desktops, 1200px and up)
+** ======================================================= */
+@media (min-width: 1400px) { 
+    
+
+
+
+ }

@@ -1,0 +1,753 @@
+/*********** Fonts start 
+ ** ================================== **/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap");
+
+/** Fonts End */
+
+
+
+
+
+
+
+/*********** Common css start 
+ ** ================================== **/
+body{
+  font-family: 'roboto';
+  color: #000;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  transition: .3s;
+}
+a:hover{
+  color: #FF5353;
+  text-decoration: none;
+}
+.py_75{
+  padding: 75px 0;
+}
+.c_btn{
+  padding: 12px 30px;
+  color: white;
+  background-color: #FF5353 !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  transition: .3s;
+}
+.c_btn:hover{
+  background-color: white !important;
+  color: #FF5353;
+}
+
+/** Common css End */
+
+
+
+
+
+
+
+
+
+
+/*********** Header start 
+ ** ================================== **/
+/** top header*/
+.top_header{
+  background-color: #fef7f6;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+/** Navbar*/
+.c_collapse{
+  margin-bottom: 14px;
+}
+.logo{
+  width: 40px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.logo_text{
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.c_navbar li a{
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+  padding-right: 25px;
+  transition: .3s;
+  text-transform: uppercase;
+}
+.c_navbar li a:last-child{
+  margin-right: 0;
+}
+.c_navbar li a:hover{
+  color: #FF5353;
+}
+
+
+
+
+/** Right icons*/
+.icon_link{
+  position: relative;
+  font-size: 19px;
+  padding: 10px;
+}
+.heart{
+  position: absolute;
+  background-color: #FF5353;
+  color: white;
+  font-size: 10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  text-align: center;
+  top: 0;
+  right: 0;
+}
+
+/** Header End */
+
+
+
+
+
+
+
+
+
+
+/*********** banner start 
+ ** ================================== **/
+.banner{
+  background-image: url(../img/bg-1.jpg);
+}
+
+.banner_text{
+  padding: 102px 0;
+  text-align: center;
+}
+.banner_text h4{
+  font-size: 20px;
+  color: #000000b3;
+}
+
+.banner_text h1{
+  font-size: 64px;
+  color: black;
+}
+.banner_text button{
+  margin-top: 3rem
+}
+/** banner End */
+
+
+
+
+
+
+
+
+
+
+/*********** FEATURED PRODUCT Start 
+ ** ================================== **/
+/** Common tittle*/
+.common_tittle{
+  padding-bottom: 50px;
+  font-weight: 700;
+}
+.product_text h6{
+  margin: 0;
+  padding: 20px 0 6px 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #00000070;
+}
+.product_text p{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.product_thum{
+  position: relative;
+}
+.product_thum:hover .quick_view_icon ul li{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-40px);
+}
+.quick_view_icon{
+  position: absolute;
+  text-align: center;
+  left: 0;
+  bottom: 20px;
+  right: 0;
+  margin: auto;
+ }
+.quick_view_icon ul li{
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+.quick_view_icon ul li:nth-child(1){
+  transition-delay: .1s;
+}
+.quick_view_icon ul li:nth-child(2){
+  transition-delay: .2s;
+}
+.quick_view_icon ul li:nth-child(3){
+  transition-delay: .3s;
+}
+
+.quick_view_icon ul li a{
+  font-size: 19px;
+  background: #fff;
+  color: black;
+  padding: 11px 14px;
+  border-radius: 50%;
+  font-weight: bold;
+  transition: .3s ease-in-out;
+}
+.quick_view_icon ul li a:hover{
+  background: #FF5353;
+  color: white;
+}
+/** FEATURED PRODUCT End */
+
+
+
+
+
+
+
+
+
+
+/*********** 50% off section start 
+ ** ================================== **/
+.off_text{
+  text-align: center;
+}
+.off_text h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+.off_text h2{
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #0000008a;
+  padding: 30px 0;
+  margin: 0;
+}
+/** 50% off section End */
+
+
+
+
+
+
+
+
+
+
+/*********** MOST POPULAR start 
+ ** ================================== **/
+.py_110{
+  padding: 110px 0;
+} 
+/** MOST POPULAR End */
+
+
+
+
+
+
+
+
+
+
+/*********** TRENDING PRODUCTS start 
+ ** ================================== **/
+.img_text{
+  padding: 20px;
+}
+.img_text h1{
+  font-size: 17px;
+  padding: 38px 0 10px;
+  margin: 0;
+}
+.img_text p{
+  font-size: 15px;
+  color: #000000ad;
+} 
+/** TRENDING PRODUCTS End */
+
+
+
+
+
+
+
+
+
+
+/*********** SILON JOURNAL start 
+ ** ================================== **/
+.post_meta{
+  font-size: 15px;
+  color: #00000085;
+  margin-right: 24px;
+  padding: 9px 0 10px;
+  position: relative;
+  cursor: pointer;
+}
+.date{
+  margin-left: 27px;
+}
+.date:before{
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 5px;
+  background-color: #FF5353;
+  bottom: 17px;
+  left: -24px;
+  border-radius: 2px;
+}
+.post_title{
+  font-size: 23px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #00000038;
+  transition: .3s;
+}
+.post_title:hover, .post_meta:hover{
+  color: #FF5353;
+}
+/** SILON JOURNAL End */
+
+
+
+
+
+
+
+
+
+
+/*********** FOLLOW US start 
+ ** ================================== **/
+.instagram{
+  position: relative;
+}
+.instagram a{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.instagram a::before{
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 83, 83, 0.7);
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+.instagram a:hover::before{
+  top: 0;
+  opacity: 1;
+  visibility: visible;
+}
+.instagram a i{
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+.instagram a:hover i{
+  opacity: 1;
+  visibility: visible;
+}
+/** FOLLOW US End */
+
+
+
+
+
+
+
+
+
+
+/*********** Footer start start 
+ ** ================================== **/
+.about_us h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.about_us ul li a{
+  font-size: 15px;
+  color: #000000a3;
+  line-height: 30px;
+  font-weight: 600;
+}
+.about_us ul li a:hover{
+  color: #FF5353;
+}
+
+ 
+.mobile{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c7c7c7;
+}
+.mobile h2{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.app_btn, .app_btn2{
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: white;
+  transition: .3s;
+}
+.app_btn2{
+  background-color: #FF5353 !important;
+}
+.app_btn:hover{
+  background-color: #FF5353;
+}
+.app_btn:hover i, .app_btn:hover p, .app_btn:hover span{
+  color: white;
+}
+.app_btn a, .app_btn2 a{
+  text-transform: uppercase;
+  padding: 7px;
+}
+.app_btn a i, .app_btn2 a i{
+  font-size: 22px;
+  padding: 5px 5px 0 0;
+  color: #FF5353;
+}
+.app_btn2 a i{
+  color: white;
+}
+.app_btn a p, .app_btn2 a p{
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  font-size: 12px;
+  margin: 0;
+}
+.app_btn2 a p{
+  color: white;
+}
+.app_btn a p span, .app_btn2 a p span{
+  margin: 0;
+  font-size: 10px;
+  color: rgb(110, 108, 108);
+  text-align: left;
+}
+.app_btn2 a p span{
+  color: white;
+}
+
+ 
+.social h2{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+.social ul li a i{
+  background: white;
+  font-size: 16px;
+  padding: 9px;
+  color: black;
+  transition: .4s;
+}
+.social ul li a i:hover{
+  color: white;
+  background-color: #FF5353;
+}
+/** Footer start End */
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+.footer_bottom p{
+  margin: 0;
+  border-top: 1px solid #c7c7c7;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 16px;
+}
+.footer_bottom p span{
+  font-weight: 700;
+}
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
+
+
+
+
+
+
+
+
+
+
+/*********** Fonts start 
+ ** ================================== **/
+
+
+ 
+
+
+ 
+/** Fonts End */
